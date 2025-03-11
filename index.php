@@ -14,7 +14,7 @@
         </header>
         <section>
             <form action="" method="post">
-                <input type="number" name="tamanho" id="tamanho" value="<?= $tamanho; ?>" required>
+                <input type="number" name="tamanho" id="tamanho" placeholder="Quantidade de caracteres" value="<?= $tamanho; ?>" required>
                 <input type="submit" value="Gerar senha">
             </form>
         </section>
